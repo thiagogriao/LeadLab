@@ -1,0 +1,37 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Dados gerados (muito grandes para Git)
+data/*.parquet
+data/*.csv
+
+# Arquivos SQL grandes
+ceps/*.sql
+
+# Modelos treinados
+models/*.pkl
+models/*.joblib
+
+# Cache do CatBoost
+catboost_info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
